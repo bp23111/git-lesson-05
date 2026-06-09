@@ -78,7 +78,7 @@ public class AnalyzeData {
         double average = sum / values.size();
 
         return String.join(System.lineSeparator(),
-                "研究データの分析結果",
+                "研究データの分析結果まとめ",
                 "",
                 "件数: " + values.size(),
                 String.format("平均値: %.2f", average),
